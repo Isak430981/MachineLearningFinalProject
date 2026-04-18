@@ -1,0 +1,5 @@
+samples=4424,features=36,class_counts={'Dropout': 1421, 'Graduate': 2209, 'Enrolled': 794}
+model_splits=LR:train,LR:test,LR:all,KNN:train_sampled,KNN:test,KNN:all_sampled
+clustering=[('kmeans', 0.2292, 1.5734), ('kmedoids', 0.1711, 1.8603)]
+lr_cv=[(0.0001, 0.7605), (0.001, 0.7605), (0.01, 0.7605), (0.1, 0.7518)]
+knn_cv=[(11, 0.5873), (17, 0.5922), (23, 0.5562)]
